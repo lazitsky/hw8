@@ -1,0 +1,168 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, rif;
+    font-size: small;
+}
+
+header {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 20px;
+}
+    
+h2 {
+    text-decoration-line: underline;
+}
+
+img {
+    margin-left: 76vw;
+    margin-bottom: -8vw;
+    width: 240px;
+    height: 140px; 
+    border: 2px solid black;
+}
+
+.img3 {
+    border: 3px solid rgb(8, 105, 82);
+}
+
+.block1 {
+    height: 40%;
+    width: 70%;
+    background-color: rgb(225, 235, 249);
+    border: 3px rgb(81, 81, 145);
+    border-style:solid solid dashed dashed;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.img1 {
+    border: 3px solid rgb(81, 81, 145);
+}
+
+.title1 {
+    color: rgb(11, 62, 150);
+}
+
+.title2 {
+    color: rgb(11, 62, 150);;
+}
+
+.letter1:first-letter {
+font-size: 30px;
+color: rgb(11, 62, 150);
+font-weight: bold;
+}
+
+.list1:nth-of-type(1) li:nth-child(2n) {
+    color:rgb(11, 62, 150);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+  
+.list1 {
+    margin-left: 30px;
+}
+
+.overline1 {
+    text-align: center;
+    font-style: italic;
+    text-decoration-line: overline;
+}
+
+.block2 {
+    height: 40%;
+    width: 70%;
+    background-color: rgb(235, 239, 239);
+    padding: 30px;
+    border: 3px rgb(58, 58, 58);
+    border-style:solid solid dashed dashed;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.img2 {
+    border: 3px solid rgb(235, 239, 239);
+}
+
+.title3 {
+    color: rgb(39, 95, 95);
+}
+
+.title4 {
+    color: rgb(28, 90, 90);
+}
+.letter2:first-letter {
+    font-size: 20px;
+    color: rgb(39, 95, 95);
+    font-weight: bold;
+}
+
+.list2:nth-of-type(1) li:nth-child(odd) {
+    color: rgb(28, 90, 90);
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+.list2 {
+    margin-left: 30px;
+}
+
+ol {
+    margin-left: 30px;
+}
+.overline2 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+.block3 {
+    height: 40%;
+    width: 70%;
+    background-color: rgb(221, 240, 217);
+    padding: 30px;
+    margin: 20px;
+    border: 2px rgb(8, 105, 82);
+    border-style:solid solid dashed dashed;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.title5 {
+color: rgb(8, 89, 8);
+}
+
+.title6 {
+    color: rgb(8, 89, 8);
+}
+
+.letter3:first-letter {
+    font-size: 20px;
+    color: rgb(8, 89, 8);
+    font-weight: bold;
+}
+
+.list3:nth-of-type(1) li:nth-child(3n){
+    color: rgb(9, 155, 9);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.list3 {
+    margin-left: 30px;
+}
+
+.overline3 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: overline;
+}
+
